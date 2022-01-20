@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue{
+  background-color: blue;
+  transition: all 0.25 ease-in-out;
+}
+
+.grey {
+  transition: all 0.25 ease-in-out;
+  background-color: grey;
+}
+
+.tomato {
+  transition: all 0.25 ease-in-out;
+  background-color: tomato;
+}
+.orange{
+  background-color: rgb(243, 173, 43);
+  transition: all 0.25 ease-in-out;
+}
+
+.red{
+  background-color: rgb(175, 40, 40);
+  transition: all 0.25 ease-in-out;
+}
+
+.purple{
+  background-color: rgb(109, 29, 109);
+  transition: all 0.25 ease-in-out;
+}
+
+.black{
+  background-color: black;
+  transition: all 0.25 ease-in-out;
+}
+
+button{
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0 10px;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 90vh;
+  text-align: center;
+}
